@@ -1,5 +1,10 @@
-import 'package:guias_mapas/guias_mapas.dart' as guias_mapas;
-
 void main(List<String> arguments) {
-  print('Hello world: ${guias_mapas.calculate()}!');
+Map<String,String> agenda = {"Alexander":"30000","Tania":"3000001","Cristiam":"3000054"};
+
+print("${agenda["Alexander"]}");
+print("${agenda["Tania"]}");
+print("${agenda["Cristiam"]}");
+
 }
+
+
