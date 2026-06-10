@@ -1,4 +1,4 @@
-void listarcontactos(Map<String,String>agenda){
+void buscarcontactos(Map<String,String>agenda){
 String nombreBuscar = "Tania";
 
   if (agenda.containsKey(nombreBuscar)) {
